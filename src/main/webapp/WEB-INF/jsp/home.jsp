@@ -13,6 +13,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<span>登陆账号为${user.username}</span>
 <%--菜单权限--%>
 <c:if test="${fn:length(trees) > 0}">
 	<ul>
